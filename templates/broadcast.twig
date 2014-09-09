@@ -1,0 +1,18 @@
+{% extends "layout.twig" %}
+
+{% block title %}Broadcast{% endblock %}
+
+{% block head %} {{ parent() }} {% endblock %}
+
+
+{% block content %}
+
+    <div class="page-header">
+        <h1>Broadcast <small>outil officiel de communication de la grille EGI</small></h1>
+    </div>
+
+    {% include "carousel.php" with {'images' : images}%}
+
+
+
+{% endblock %}
