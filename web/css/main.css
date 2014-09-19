@@ -25,3 +25,20 @@ h3 {
 .page-header {
     text-align:center;
 }
+
+.side_info {
+    margin-bottom:13px
+}
+
+span.glyphicon {
+    font-size: 1.3em;
+}
+
+#googlized {
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+#googlized span {
+    padding-right:13px;
+}
