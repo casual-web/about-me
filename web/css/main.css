@@ -1,8 +1,27 @@
 .body {
-    padding-top:40px
+    padding-bottom:900px
+
 }
 
 section {
     padding-top:40px;
     margin-top:-40px;
+}
+
+#aboutme {
+    margin-top: 25px;
+}
+
+.menu {
+    background-color: inherit;
+}
+
+h3 {
+    padding:0;
+    margin:0;
+    text-align:right;
+}
+
+.page-header {
+    text-align:center;
 }

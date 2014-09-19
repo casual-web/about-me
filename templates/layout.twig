@@ -18,19 +18,23 @@
 </head>
 <body class="body">
 
-</nav>
-<div class="container">
-    <div class="bs-example">
-        <ul class="nav nav-pills">
-            <li><a href="#aboutme">A propos de moi</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#formation">Formation</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
-    </div>
+<div class="navbar navbar-fixed-top menu" role="navigation">
+    <div class="container">
 
-    {% block content %}
+        <div class="navbar-collapse collapse  bs-example">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#aboutme">A propos de moi</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
+
+
+{% block content %}
+    </div>
 
 {% endblock %}
 

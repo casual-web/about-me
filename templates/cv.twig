@@ -1,18 +1,25 @@
-{%  include 'layout.twig' %}
+{% include 'layout.twig' %}
 
+<div class="container">
 
-<section id="aboutme">
-    {%  include 'aboutme.twig' %}
-</section>
+    <div class="page-header">
+        <h1>Olivier Lequeux<br/><small>Senior développeur</small></h1>
 
-<section id="experience">
-    {%  include 'experience.twig' %}
-</section>
+    </div>
 
-<section id="formation">
-    {%  include 'formation.twig' %}
-</section>
+    <section id="aboutme">
+        {% include 'aboutme.twig' %}
+    </section>
 
-<section id="portfolio">
-    {%  include 'portfolio.twig' %}
-</section>
+    <section id="experience">
+        {% include 'experience.twig' %}
+    </section>
+
+    <section id="formation">
+        {% include 'formation.twig' %}
+    </section>
+
+    <section id="portfolio">
+        {% include 'portfolio.twig' %}
+    </section>
+</div>
