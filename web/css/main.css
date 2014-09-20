@@ -34,6 +34,16 @@ section {
     font-size: 1em;
 }
 
+#formation ul{
+    padding-left:0;
+    margin-left:0;
+}
+
+#divers ul{
+    padding-left:0;
+    margin-left:0;
+}
+
 .sub_section {
     margin:18px 0 45px 0;
 }
