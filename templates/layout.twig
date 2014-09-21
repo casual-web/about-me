@@ -3,7 +3,8 @@
 <head>
     {% block head %}
     <link href="{{ app.request.basepath }}/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="{{ app.request.basepath }}/css/main.css" rel="stylesheet"/>
+    <link href="{{ app.request.basepath }}/css/main.css"  rel="stylesheet" type="text/css" media="screen"/>
+    <link href="{{ app.request.basepath }}/css/main_printable.css"  rel="stylesheet" type="text/css" media="print"/>
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <script type="text/javascript" src="{{ app.request.basepath }}/js/jquery.js"></script>
     <script type="text/javascript" src="{{ app.request.basepath }}/js/bootstrap.min.js"></script>
