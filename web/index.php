@@ -20,9 +20,9 @@ $app['twig'] = $app->share(
 $app['twig.path'] = array(__DIR__.'/../templates');
 
 $app->get(
-    '/cv',
+    '/olivierlequeux',
     function () use ($app) {
-        return $app['twig']->render('cv.twig', array());});
+        return $app['twig']->render('olivierlequeux.twig', array());});
 
 
 $app->get(
