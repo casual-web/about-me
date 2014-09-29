@@ -1,85 +1,115 @@
-    .print {
-        display:none;
-    }
+.print {
+    display: none;
+}
 
-    .body {
-        padding-bottom: 900px
-    }
+.body {
+    padding-bottom: 900px
+}
 
-    h3 {
-        padding: 0;
-        margin: 0;
-    }
+h3 {
+    padding: 0;
+    margin: 0;
+}
 
-    h4 {
-        font-weight: 600;
-        color: #555555;
-    }
+h4 {
+    font-weight: 600;
+    color: #555555;
+}
 
-    h5 {
-        font-weight: 600;
-        font-size:1.1em;
-    }
+h5 {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height:25px
+}
 
-    .page-header {
-        text-align: center;
-    }
 
-    /* ##################### sections ##################### */
-    section {
-        padding-top: 60px;
-        margin: -40px 0 30px 0;
-    }
+h5 small {
+    font-size: 0.9em;
+    margin:0 0 0 20px;
+}
 
-    .section_title {
-        text-align: left;
-    }
 
-    .section_title small {
-        color: #007196;
-        font-weight: bold;
-        font-size: 1em;
-    }
 
-    .sub_section {
-        margin: 18px 0 45px 0;
-    }
+.page-header {
+    text-align: center;
+}
 
-    .sub_section .section_comment {
-        border-left: 2px solid gray;
-    }
+/* ##################### sections ##################### */
+section {
+    padding-top: 60px;
+    margin: -40px 0 30px 0;
+}
 
-    #formation ul {
-        padding-left: 0;
-        margin-left: 0;
-    }
+.section_title {
+    text-align: left;
+}
 
-    #divers ul {
-        padding-left: 0;
-        margin-left: 0;
-    }
+.section_title small {
+    color: #007196;
+    font-weight: bold;
+    font-size: 1em;
+}
 
-    #aboutme {
-        margin-top: 18px;
-    }
+.sub_section {
+    margin: 18px 0 45px 0;
+}
 
-    .menu {
-        background-color: inherit;
-    }
+.sub_section .section_comment {
+    border-left: 2px solid gray;
+}
 
-    .side_info {
-        margin-bottom: 13px;
-    }
 
-    span.glyphicon {
-        font-size: 1.3em;
-    }
+#formation ul {
+    padding-left: 0;
+    margin-left: 0;
+}
 
-    #googlized {
-        margin-bottom: 20px;
-        font-size: 1.4em;
-    }
+#divers ul {
+    padding-left: 0;
+    margin-left: 0;
+}
 
-    #googlized span {
-        padding-right: 13px;
-    }
+#aboutme {
+    margin-top: 18px;
+}
+
+.menu {
+    background-color: inherit;
+}
+
+.side_info {
+    margin-bottom: 13px;
+}
+
+span.glyphicon {
+    font-size: 1.3em;
+}
+
+#googlized {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+#googlized span {
+    padding-right: 13px;
+}
+
+#googlized a:link {
+    text-decoration: none;
+    color: #444444;
+}
+
+#googlized a:visited {
+    text-decoration: none;
+    color: #444444;
+}
+
+#googlized a:hover {
+    text-decoration: none;
+    color: #004b63;
+}
+
+#googlized a:active {
+    text-decoration: none;
+    color: #444444;
+}
