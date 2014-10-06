@@ -11,6 +11,20 @@
     font-size : 12pt
 }
 
+@media print {
+    h1 {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 0 #ccc;
+    }
+
+    @media print and (-webkit-min-device-pixel-ratio:0) {
+        h1 {
+            color: #ccc;
+            -webkit-print-color-adjust: exact;
+        }
+    }
+}
+
 h3 {
     padding:0;
     margin:0;
@@ -21,10 +35,17 @@ h4 {
     color:#555555;
 }
 
+h5 {
+    font-size: 1.1em;
+    font-weight:500;
+    padding-bottom:5px;
+}
+
 
 h5 small {
     font-size: 0.9em;
     margin:0 0 0 20px;
+    color: rgba(45, 197, 207, 0.9);
 }
 
 

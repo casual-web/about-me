@@ -19,21 +19,12 @@ $app['twig'] = $app->share(
 
 $app['twig.path'] = array(__DIR__.'/../templates');
 
+
 $app->get(
-    '/olivierlequeux',
+    '/',
     function () use ($app) {
         return $app['twig']->render('olivierlequeux.twig', array());});
 
-
-$app->get(
-    '/broadcast',
-    function () use ($app) {
-        return $app['twig']->render('broadcast.twig', array('images' => array(
-                    array('caption' =>"Formulaire denvoi", "path" => "img/broadcast.png", 'status'=>'active'),
-                    array('caption' =>"Browser", "path" => "img/broadcast2.png", 'status'=>''))
-                ));
-    }
-);
 
 $app->run();
 
